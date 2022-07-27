@@ -28,7 +28,6 @@ export function Header() {
           justifySelf="center"
           gridColumn="2"
         />
-
       </Grid>      
     </Flex>
   );
