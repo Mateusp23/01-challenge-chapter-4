@@ -1,4 +1,5 @@
 import { Grid, Text } from '@chakra-ui/react';
+import { Infos } from './Infos';
 
 export function TextContent() {
   return (
@@ -17,6 +18,9 @@ export function TextContent() {
         a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, 
         o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
       </Text>
+
+      <Infos />
+
     </Grid>
   );
 }
