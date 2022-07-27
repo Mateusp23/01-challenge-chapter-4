@@ -4,6 +4,7 @@ import { Banner } from '../components/Banner/index';
 import { Options } from '../components/Options/index';
 import { Separator } from '../components/Separator/index';
 import { TextHeading } from '../components/TextHeading/index';
+import { Slider } from '../components/Slider/index';
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
       <Options />
       <Separator />
       <TextHeading />
+
+      <Slider />
     </Flex>
   );
 }
